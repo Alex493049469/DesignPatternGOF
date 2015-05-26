@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
-namespace DesignPatternGOF
+namespace DesignPatternGOF.DesignPattern
 {
     //Шаблон фасад (англ. Facade) — структурный шаблон проектирования, 
     //позволяющий скрыть сложность системы путем сведения всех возможных внешних вызовов к одному объекту,
     //делегирующему их соответствующим объектам системы.
 
-    /* Различные  подсистемы*/
+    /* Сложные части системы */
 
     internal class CPU
     {
