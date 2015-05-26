@@ -16,5 +16,11 @@ namespace DesignPatternGOF
         {
             InitializeComponent();
         }
+
+        private void buttonFacade_Click(object sender, EventArgs e)
+        {
+            Computer computer = new Computer();
+            computer.startComputer();
+        }
     }
 }
